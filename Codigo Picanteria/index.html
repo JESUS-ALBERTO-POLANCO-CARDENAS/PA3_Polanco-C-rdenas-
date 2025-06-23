@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picanteria Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Bienvenidos al restaurante "Picanteria Virtual"</h1>
+        <p>La mejor comida típica de Arequipa , a un clic de distancia.</p>
+    </header>
+
+    <main class="container">
+        <h2>Nuestros Platos</h2>
+        <div id="productos-container" class="productos-grid"></div>
+    </main>
+
+    <aside class="carrito-container">
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Carrito de Compras</h2>
+        
+        <div id="notificacion" class="notificacion"></div>
+
+        <ul id="carrito-items" class="carrito-items">
+            <p>El carrito está vacío.</p>
+        </ul>
+        
+        <div class="carrito-total">
+            <h3>Total: <span id="carrito-total-precio">$0.00</span></h3>
+        </div>
+
+        <button id="vaciar-carrito" class="btn btn-danger">Vaciar Carrito</button>
+    </aside>
+
+    <button id="btn-subir" class="btn-subir" title="Volver arriba">↑</button>
+
+    <footer class="footer">
+        <p>&copy; 2025 Picanteria Virtual. Copyright Derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    
